@@ -1,0 +1,20 @@
+{
+  "name": "array_curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./dist/index.js",
+    "tsc": "tsc --watch",
+    "server": "http-server client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
